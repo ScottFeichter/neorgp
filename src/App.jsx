@@ -4,11 +4,16 @@ import styles from './App.module.css'
 export default function App() {
   return (
     <main className={styles.hero}>
-      <div className={styles.logoRing}>
-        <img src={logo} alt="NeoRGP logo" className={styles.logoImg} />
+      <div className={styles.logoRingWrap}>
+        <div className={styles.logoRing}>
+          <img src={logo} alt="NeoRGP logo" className={styles.logoImg} />
+        </div>
       </div>
       <h1 className={styles.name}>NEO RGP</h1>
-      <p className={styles.slogan}>Git Lit</p>
+      <div className={styles.sloganWrap}>
+        <span className={styles.sloganGlow} aria-hidden="true">Git Lit</span>
+        <span className={styles.slogan}>Git Lit</span>
+      </div>
       <p className={styles.tagline}>
         Custom AI, IT, &amp; Software Solutions
       </p>
