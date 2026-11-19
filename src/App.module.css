@@ -19,9 +19,9 @@
   position: absolute;
   inset: -12px;
   border-radius: 50%;
-  background: radial-gradient(circle, transparent 47%, #4DCCE7 52%, #E4B15E 58%, #ff6a00 66%, transparent 85%);
-  filter: blur(14px);
-  opacity: 0.75;
+  background: radial-gradient(circle, transparent 47%, #4DCCE7 51%, #ffcc00 55%, #ffaa00 61%, transparent 80%);
+  filter: blur(10px);
+  opacity: 1;
   z-index: 0;
 }
 
